@@ -1,0 +1,183 @@
+
+/* General Styles */
+body {
+    background: rgb(27, 26, 26);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+body.light-mode {
+    background: lightgray;
+    color: black;
+}
+
+body.light-mode .header {
+    background-color: lightgray;
+    color: darkslategray;
+}
+
+body.light-mode .topnav {
+    background-color: lightgray;
+    color: darkslategray;
+}
+
+body.light-mode .topnav a {
+    color: darkslategray;
+}
+
+body.light-mode .topnav a:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+body.light-mode .child {
+    background-color: lightgoldenrodyellow;
+    border-color: goldenrod;
+}
+
+body.light-mode .linktree {
+    background-color: lightgray;
+    border-color: gray;
+    color: darkslategray;
+}
+
+/*head of the website*/
+h1 {
+    color: rgb(82, 131, 133);
+    text-align: center;
+    font-size: 45x;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    padding: 5px;
+    margin: 5px 100px 5px 100px;
+    }
+.header {
+        text-align: center;
+        padding: 15px;
+    }
+
+a:link {
+    color: gold;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: gold;
+}
+
+a:active {
+    color: turquoise;
+}
+
+/*Log in & create profile*/
+.LogIn {
+    margin: 0px 500px 0px 3px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(88, 43, 166);
+    padding: 3px;
+    margin: 5px;
+  }
+  
+/* Navbar links */
+.topnav a {
+    float: inline-start;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+/*body of the website*/
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        text-align: left;
+        color: white;
+    }
+
+/*all p elements*/
+p {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+/*button elements*/
+button {
+    padding: 5px;
+    margin: 5px;
+}
+
+.parent {
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+.child {
+    display: inline-block;
+    border: none;
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+    background-color: darkmagenta;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+  }
+
+/*contact form*/
+h3 {
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*contact form*/
+.contactForm {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*linktree*/
+.Linktree {
+    font-size: 20px;
+}
+.Linktree {
+
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px 5px 3px 5px;
+    margin: 100px;
+    
+}
+button {
+    border-radius: 30px;
+    border: none;
+    background: none;
+}
+
