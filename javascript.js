@@ -9,7 +9,7 @@ function myFunction() {
 }
 
 // Alert when visiting
-window.alert("Welcome! :)");
+// window.alert("Welcome! :)");
 
 // Example of JavaScript variables usage
 let a = 2 + 1;

@@ -1,7 +1,9 @@
 
 /* General Styles */
+
+/* TODO: light mode */
 body {
-    background: rgb(27, 26, 26);
+    background: #494A4A;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -22,12 +24,13 @@ body.light-mode .header {
 }
 
 body.light-mode .topnav {
-    background-color: lightgray;
+    background-color: rgb(242, 242, 229);
     color: darkslategray;
 }
 
 body.light-mode .topnav a {
     color: darkslategray;
+    background-color: lightgoldenrodyellow;
 }
 
 body.light-mode .topnav a:hover {
@@ -87,10 +90,26 @@ a:active {
 
 /* The navbar container */
 .topnav {
-    overflow: hidden;
-    background-color: rgb(88, 43, 166);
-    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    background-color: #C493C1;
+    padding: 10px;
     margin: 5px;
+    gap: 10px;
+
+  }
+
+  /* boxes */
+  .topnav a {
+    justify-content: center;
+    align-items: center;
+    background-color: #9A6797;
+    margin: 2px;
+    width: 80px;
+    height: 15px;
+    margin: auto;
   }
   
 /* Navbar links */
@@ -112,10 +131,10 @@ a:active {
 body {
     background-repeat: no-repeat;
     background-attachment: fixed;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 15px;
-        text-align: left;
-        color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: left;
+    color: white;
     }
 
 /*all p elements*/
@@ -144,9 +163,9 @@ button {
     border: none;
     padding: 5px 5px 5px 5px;
     vertical-align: middle;
-    background-color: darkmagenta;
+    background-color: #9A6797;
     margin: 5px 5px 5px 5px;
-    border-radius: 5px;
+    border-radius: 2px;
   }
 
 /*contact form*/
